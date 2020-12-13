@@ -1,12 +1,14 @@
 // .topic-post .topic-body { z-index: 3; }
 
 .post-retort {
-  float: left;
+  float: none;
   padding: 2px;
   z-index: 1;
   margin: 20px 2px;
   position: relative;
   outline: 0;
+  border: none;
+  background: none;
 
   &:hover .post-retort__tooltip { opacity: 1 }
 
@@ -49,7 +51,7 @@
     bottom: 3px;
     left: 1px;
     font-weight: bold;
-    color: $secondary;
+    color: $primary;
   }
 }
 
