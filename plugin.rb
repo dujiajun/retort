@@ -1,8 +1,8 @@
 # name: retort
 # about: Reactions plugin for Discourse
 # version: 1.2.3
-# authors: James Kiesel (gdpelican)
-# url: https://github.com/gdpelican/retort
+# authors: original James Kiesel (gdpelican), dujiajun modified
+# url: https://github.com/dujiajun/retort
 
 register_asset "stylesheets/retort.scss"
 
