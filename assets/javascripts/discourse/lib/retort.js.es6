@@ -43,8 +43,6 @@ export default Ember.Object.create({
   disabledFor(postId) {
     const post = this.postFor(postId)
     if (!post) { return true }
-    if (!post.topic.details.can_create_post) { return true }
-    if (post.get('topic.archived')) { return true }
     
     const categoryName = post.get('topic.category.name');
     const disabledCategories = this.disabledCategories();
